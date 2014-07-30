@@ -1,0 +1,2 @@
+Reorderable ListView (DragNDropList): https://github.com/terlici/DragNDropList
+MusicMod for Drag icon: http://code.google.com/p/musicmod/

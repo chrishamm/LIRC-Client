@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/settings_connection">
+
+        <EditTextPreference
+                android:key="ip_address"
+                android:title="@string/settings_ip_port"
+                android:summary="@string/settings_ip_port_summary"
+                android:dialogTitle="@string/settings_ip_port_dialog_title"
+            	android:inputType="textUri" />
+        
+        <CheckBoxPreference
+           		android:key="wifi_device"
+           		android:title="@string/settings_wifi_device"
+           		android:summary="@string/settings_wifi_device_summary" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        	android:title="@string/settings_grid">
+        
+        <com.chham.lirc_client.components.IntEditTextPreference
+            	android:key="grid_rows"
+            	android:title="@string/settings_rows"
+            	android:summary="@string/settings_rows_summary"
+            	android:dialogTitle="@string/settings_rows_dialog_title" />
+        
+        <com.chham.lirc_client.components.IntEditTextPreference
+            	android:key="grid_cols"
+            	android:title="@string/settings_cols"
+            	android:summary="@string/settings_cols_summary"
+            	android:dialogTitle="@string/settings_cols_dialog_title" />
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        	android:title="@string/devices">
+        
+        <com.chham.lirc_client.components.IntEditTextPreference
+            	android:key="simulate_delay"
+            	android:title="@string/setting_device_simulate_delay_title"
+            	android:summary="@string/setting_device_simulate_delay_summary"
+            	android:dialogTitle="@string/setting_device_simulate_delay_title" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        	android:title="@string/activities">
+        
+        <CheckBoxPreference
+            android:key="auto_switch"
+            android:title="@string/settings_activity_autoswitch_title"
+            android:summary="@string/settings_activity_autoswitch_summary" />
+        
+        <com.chham.lirc_client.components.IntEditTextPreference
+            	android:key="activity_delay"
+            	android:title="@string/settings_activity_delay_title"
+            	android:summary="@string/settings_activity_delay_summary"
+            	android:dialogTitle="@string/settings_activity_delay_title" />
+        
+        <com.chham.lirc_client.components.IntEditTextPreference
+            	android:key="macro_delay"
+            	android:title="@string/settings_activity_macro_delay_title"
+            	android:summary="@string/settings_activity_macro_delay_summary"
+            	android:dialogTitle="@string/settings_activity_macro_delay_title" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        	android:title="@string/settings_rotation">
+        
+        <ListPreference
+            android:key="rotation_behavior"
+            android:title="@string/settings_rotation_behavior"
+            android:summary="@string/settings_rotation_behavior_summary"
+            android:entries="@array/rotation_entries"
+            android:entryValues="@array/rotation_values" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        	android:title="@string/settings_about">
+        
+        <com.chham.lirc_client.components.LicensePreference
+            android:title="@string/settings_licenses_title"
+            android:summary="@string/settings_licenses_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

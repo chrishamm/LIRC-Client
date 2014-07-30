@@ -1,0 +1,628 @@
+/*  green style */
+
+#secnav li{
+	text-transform:uppercase;
+	font-size:13px;
+	background:url(green/icons/menu-divider.jpg) no-repeat top right;
+}
+
+/*  Images */
+#wrap{
+	background: url(green/icons/wrap.jpg) repeat-x 0 0;
+	min-width:1009px;
+}
+#top-out {
+	background: transparent url(green/icons/top-icons.jpg) no-repeat scroll center 0;
+	min-width:1009px;
+}
+#header {
+//	background: url(black/bg_top_gradient.gif) no-repeat 60px 0;
+	background: none;
+}
+
+
+
+
+
+
+
+/*  Images */
+
+
+#middle-out-top { /* Background - Middle Top */
+	background: #dce0d2 url(green/bg_middle_out_top.gif) repeat-x 0 0;
+}
+#middle-out-bottom { /* Background - Middle Bottom Gradient */
+	background: url(green/bg_middle_out_bottom.gif) repeat-x left bottom;
+}
+#middle-out-bottom .single { /* Background - Content - Single Page */
+	background: url(green/bg_middle_content_single.gif) repeat-y;
+}
+#middle-content { /* Background - Content */
+	background: url(green/bg_middle_content.gif) repeat-y;
+}
+#middle-content-bottom { /* Background - Content Bottom */
+	background: url(green/bg_middle_content_bottom.gif) no-repeat 0 bottom;
+}
+#content {
+	background: url(green/icons/bg_middle_top.jpg) no-repeat 0 0;
+}
+#footer {
+	background: url(green/bg_footer_gradient.jpg) no-repeat 0 0;
+}
+#middle-out-bottom .full { /* Background - Content - Full Width Page */
+	background: url(green/bg_page_full.gif) repeat-y;
+}
+#content.full {
+	background: url(green/bg_middle_top_full.gif) no-repeat 0 0;
+}
+#middle-content-bottom.full { /* Background - Content Bottom */
+	background: url(green/bg_middle_content_bottom_full.gif) no-repeat 0 bottom;
+}
+
+/*  Colors */
+a {
+	color: #6b882c;
+}
+#footer h2.widget_title {
+	background: #707761;
+	color: #fff;
+}
+#footer .block ul, #footer .block .textwidget , #footer .block #calendar_wrap{
+	border: #d2d6ca 5px solid;
+	background: #EDEDED;
+}
+.Nav a, .Nav .on,
+#sidebar h2,
+#sidebar ul.idTabs li a {
+	background: #707761;
+}
+#main-content .post h4.continue a,
+#sidebar ul.idTabs li a.selected, #sidebar ul.idTabs li a:hover {
+	background: #71882c;
+}
+.Nav .on, .Nav a:hover {
+	background: #71882c !important;
+}
+#main-content .post h4.continue a:hover {
+	background: #607125;
+}
+#copyright-out {
+	background: #3a3e31;
+}
+#nav li ul li a {
+	background: #2d3409;
+	border-bottom: 1px solid #262b08;
+}
+#footer-out {
+	background: #b7bda9;
+}
+
+
+
+/* ----------------------------------------------*/
+/* ----------------------------------------------*/
+/* MySite Added Styles
+/* ----------------------------------------------*/
+/* ----------------------------------------------*/
+
+
+/* Added Rss And Twiter Link Styles
+/* ----------------------------------------------*/
+#rss-feed-link {
+background-image:url(../images/mysite/rss-subscribe2.png);
+background-repeat:no-repeat;
+height:30px;
+position:absolute;
+right:208px;
+top:96px;
+width:105px;
+}
+
+#email-feed-link {
+background-image:url(../images/mysite/email-subscribe.png);
+background-repeat:no-repeat;
+height:30px;
+position:absolute;
+right:100px;
+top:96px;
+width:105px;
+}
+
+#twitter-link {
+background-image:url(../images/mysite/twitter-follow2.png);
+background-repeat:no-repeat;
+height:30px;
+position:absolute;
+right:0px;
+top:96px;
+width:105px;
+}
+
+/* Fix Alignment of Preview Image on Single Page
+/* ----------------------------------------------*/
+.alignright-singlepic {
+float:left;
+margin:0px 0 10px 0px;
+}
+
+
+/* Add Image Styles to NextGen Pics
+/* ----------------------------------------------*/
+.ngg-singlepic {
+-moz-border-radius-bottomleft:3px;
+-moz-border-radius-bottomright:3px;
+-moz-border-radius-topleft:3px;
+-moz-border-radius-topright:3px;
+background-color:#EEEEEE;
+border:1px solid #DDDDDD;
+padding:5px;
+margin:0 0 10px 0;
+}
+
+/* Contact Form Styles
+/* ----------------------------------------------*/
+.wpcf7 textarea, .wpcf7 input {
+background:#F7F6F6 none repeat scroll 0 0;
+border-color:#C5C3C3 #EDEDED #EDEDED #C5C3C3;
+border-style:solid;
+border-width:1px;
+color:#676563;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+padding:7px 10px;
+}
+.wpcf7 textarea {
+margin-bottom:5px;
+width:340px;
+}
+.wpcf7 input.submit {
+border-style:solid;
+border-width:0;
+padding:0;
+}
+
+/* Faq Styles
+/* ----------------------------------------------*/
+#main-content .faq, ol {
+	padding-left:20px;
+	padding-right:26px;
+}
+
+/* Etc Network DropDown
+/* ----------------------------------------------*/
+#etc-dropdown {
+	height: 32px;
+	width: 184px;
+	margin: auto;
+	position:absolute;
+	right:55px;
+	cursor:pointer;
+	
+}
+
+#etc-dropdown a{
+color:#000;	
+}
+
+.menu_class ul, li {
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+
+.menu_class {
+	margin-top:2px;
+}
+
+.the_menu {
+	display:none;
+	border: 1px solid #1c1c1c;
+	margin-top:6px;
+	width:207px;
+}
+
+.the_menu li {
+	background-color: #B8BDA9;
+}
+
+.the_menu li a {
+	color:#FFFFFF; 
+	text-decoration:none; 
+	padding:10px; 
+	display:block;
+}
+
+.the_menu li a:hover {
+	padding:10px;
+	font-weight:bold;
+	color: #F00880;
+}
+
+/* Archive Post Wrap
+/* ----------------------------------------------*/
+.archives{
+	margin-left:20px;
+	margin-right:28px;
+}
+
+/* Right Align Read More Button
+/* ----------------------------------------------*/
+.continue{
+	text-align:right;
+}
+
+/* Attribution Widget
+/* ----------------------------------------------*/
+.attribution-widget{
+	text-align:right;
+	margin-bottom:17px;
+	margin-top:20px;
+	cursor:pointer;
+}
+#footer .attribution-widget a{
+	background:#71882C none repeat scroll 0 0;
+	color:#FFFFFF;
+	padding:5px;
+	text-align:center;
+	text-decoration:none;
+}
+#footer .attribution-widget a:hover{
+	background:#71882C none repeat scroll 0 0;
+	text-decoration:underline;
+}
+
+/* User Link Feed SideBar
+/* ----------------------------------------------*/
+#sidebar #community-news-submissions .fvCommunityNewsList li{
+	background:none;
+	padding:7px 0 0;
+}
+
+#sidebar .link-feed-submit{ margin-left:5px; }
+#sidebar .link-feed-submit a{
+	background:#71882C none repeat scroll 0 0;
+	color:#FFFFFF;
+	padding:4px;
+	text-decoration:none;
+	width:47px;
+	text-align:center;
+	float:left;
+}
+
+#sidebar .link-feed-more{ margin-left:72px; }
+#sidebar .link-feed-more a{
+	background:#71882C none repeat scroll 0 0;
+	color:#FFFFFF;
+	padding:4px;
+	text-align:center;
+	text-decoration:none;
+	width:38px;
+	float:left;
+}
+#sidebar .link-feed-submit a:hover{
+	background:#71882C none repeat scroll 0 0;
+	text-decoration:underline;
+}
+
+#sidebar .link-feed-more a:hover{
+	background:#71882C none repeat scroll 0 0;
+	text-decoration:underline;
+}
+
+
+/* User Link Feed Page
+/* ----------------------------------------------*/
+.submit-link{
+	margin-bottom:26px;
+}
+#main-content .submit-link a{
+	text-decoration:none;
+	background:#71882C none repeat scroll 0 0;
+	color:#FFFFFF;
+	padding:4px;
+	width:146px;
+}
+#main-content .submit-link a:hover{
+	background:#71882C none repeat scroll 0 0;
+	text-decoration:underline;
+}
+#main-content .fvCommunityNewsList li{ padding:3px 28px 3px 25px;  }
+
+/* User Link Styles
+/* ----------------------------------------------*/
+.fvCommunityNewsList { 	padding: 0 !important; margin-left: 5px !important; }
+.fvCommunityNewsList li, .fvCommunityNewsList li:before { list-style: none !important; content: "" !important; color: #565656 !important; }
+.fvCommunityNewsList li strong { display: block; }
+.fvCommunityNewsList li small { font-size: .8em; font-style: normal; letter-spacing: 1px; margin-left: 3px; }
+
+#fvCommunityNewsForm label { display: block; color: #000; font-size:12px; color:#565656; padding:13px 0px 3px 0px; }
+#fvCommunityNewsForm label em { color: #e00; font: 12px Arial, Helvetica, sans-serif; font-style: normal; font-weight: normal; }
+#fvCommunityNewsForm input.submit{ border-style:solid; border-width:0; padding:0; }
+#link-feed-submit-btn{ margin-top:13px; }
+#fvCommunityNewsForm input, #fvCommunityNewsForm textarea { 
+	background:#F7F6F6 none repeat scroll 0 0; border-color:#C5C3C3 #EDEDED #EDEDED #C5C3C3; 
+	border-style:solid; border-width:1px; color:#676563; font-family:Arial,Helvetica,sans-serif; 
+	font-size:12px; padding:7px 10px; }
+#fvCommunityNewsForm input:focus, #fvCommunityNewsForm textarea:focus { border-color: #C5C3C3 #EDEDED #EDEDED #C5C3C3; }
+#fvCommunityNewsForm input.error, #fvCommunityNewsForm textarea.error { border-color: #e40000 #fb0000 #fb0000 #e40000; }
+#fvCommunityNewsForm input.error:focus, #fvCommunityNewsForm textarea.error:focus { border-color: #c40000 #db0000 #db0000 #c40000; }
+#fvCommunityNewsForm textarea { width:340px; }
+#fvCommunityNewsSubmit { width: auto !important; display: block; }
+#fvCommunityNewsForm small a { outline: none !important; }
+#fvCommunityNewsErrorResponse { color: #e40000; }
+
+/* Adsense Link Units
+/* ----------------------------------------------*/
+.icons-link-units{
+	text-align:left;
+	padding-bottom:8px;
+}
+/* Adsense Related Posts
+/* ----------------------------------------------*/
+.icons-related-posts-ads{
+	float:left;
+	margin-bottom:24px;
+}
+
+/* Breadcrumb Navigation
+/* ----------------------------------------------*/
+.breadcrumb{
+	text-align:left;
+	margin-bottom:12px;
+	margin-left:4px;
+	margin-top:0px;
+}
+
+/* Related Posts 
+/* ----------------------------------------------*/
+#main-content .related-posts ol {
+padding-left:24px;
+}
+.related-posts{
+	float:left;
+	width:300px;
+}
+
+/* Change Copyright Link Color
+/* ----------------------------------------------*/
+#copyright a{
+color:#FFFFFF;
+}
+#copyright a:hover{
+color:#CCCCCC;
+}
+
+/* Change Padding on Contact Form Submit Message
+/* ----------------------------------------------*/
+div.wpcf7-response-output {
+margin:0em;
+}
+
+/* Google Search
+/* ----------------------------------------------*/
+#search input#search-header {
+border:2px solid #CECFC6;
+color:#333333;
+font-size:1.4em;
+height:26px;
+padding-top:3px;
+text-align:left;
+width:170px;
+}
+
+#search input#search-header-submit {
+height:33px;
+vertical-align:top;
+}
+
+#search input#search-header-submit {
+border-style:solid;
+border:1px solid #295B7F;
+color:#FFFFFF;
+font-family:arial,sans-serif;
+font-size:12px;
+padding:7px;
+background-image:url(../images/mysite/img_search.gif);
+background-position:center center;
+background-repeat:repeat-x;
+border:medium none;
+cursor:pointer;
+}
+
+#cse-search-results{
+margin-top:20px;
+}
+
+/* Download Box 
+/* ----------------------------------------------*/
+#main-content .download_box {
+min-height:28px;
+background-image:url(../images/mysite/download-arrow.png);
+background-position:8px 8px;
+background-repeat:no-repeat;
+background-color:#EDEDED;
+margin:10px 0 10px 0;
+padding:13px 14px 13px 60px;
+border:1px solid #DDDDDD;
+}
+
+/* Download Box 
+/* ----------------------------------------------*/
+#main-content .tool_tip {
+min-height:28px;
+background-image:url(../images/mysite/tool-tip.png);
+background-position:8px 8px;
+background-repeat:no-repeat;
+background-color:#EDEDED;
+margin:10px 0 10px 0;
+padding:13px 14px 13px 60px;
+border:1px solid #DDDDDD;
+}
+
+
+
+/* Socialble Styles
+/* ----------------------------------------------*/
+.sociable-hovers {
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+/* Socialble Styles - Added so width and height match new icons
+/* ----------------------------------------------*/
+.sociable ul li:before { content: ""; }
+.sociable img {
+	width: 38px;
+	height: 36px;
+}
+
+/* Socialble Styles - Padding for Tagline
+/* ----------------------------------------------*/
+.sociable_tagline{
+	padding-bottom:10px;
+}
+
+/* Socialble Styles - Padding Icons
+/* ----------------------------------------------*/
+#main-content .sociable ul li {
+padding:0 34px 0 0;
+}
+
+
+
+/* Icons Homepage Styles
+/* ----------------------------------------------*/
+.icons-banner-desc-home {
+	text-align:center;
+}
+#main-content .icons-banner-desc-home a {
+	color:#565656;
+	font-weight:bold;
+	text-decoration:none;
+}
+#main-content .icons-banner-desc-home a:hover {
+	text-decoration:underline;
+}
+
+
+/* BreadCrumb Nav Styles
+/* ----------------------------------------------*/
+#breadcrumbs{
+	margin-bottom:11px;
+	margin-left:4px;
+}
+
+/* Single Pic Page Main Content Width
+/* ----------------------------------------------*/
+.single-pic-page #main-content {
+	margin:24px 6px 14px 34px;
+	width:640px;
+}
+
+
+/* Single Pic Download Box
+/* ----------------------------------------------*/
+.single-pic-page #main-content .advert_468x60 {
+background-image:url(../images/mysite/download-arrow.png);
+background-position:14px 12px;
+background-repeat:no-repeat;
+background-color:#EDEDED;
+margin:0 0 8px;
+padding:12px 42px;
+}
+
+
+/* Browse All Tag Page
+/* ----------------------------------------------*/
+.browse-all-tags {
+text-align:justify;
+display:block;
+width:100%;
+}
+#main-content .browse-all-tags a {
+text-decoration:none;
+}
+#main-content .browse-all-tags a:hover {
+text-decoration:underline;
+}
+#main-content .tag-link-browse-all{
+	margin-right:12px;
+	line-height:30px;
+}
+
+
+
+/* Category SideBar Drop Down
+/* ----------------------------------------------*/
+#sidebar #cat {
+	width:260px;
+}
+
+
+/* NextGen Gallery
+/* ----------------------------------------------*/
+.ngg-navigation {
+padding-bottom:8px;
+}
+
+.ngg-navigation a.page-numbers, .ngg-navigation a.next, .ngg-navigation a.prev, 
+.ngg-navigation span.page-numbers, .ngg-navigation span.next, .ngg-navigation span.prev {
+font-weight:bold;
+padding:6px 10px;
+}
+
+.ngg-navigation a.page-numbers:hover, .ngg-navigation a.next:hover, .ngg-navigation a.prev:hover, 
+.ngg-navigation span.page-numbers:hover, .ngg-navigation span.next:hover, .ngg-navigation span.prev:hover {
+background-color:#707761;
+}
+
+.ngg-gallery-thumbnail {
+margin-left:7px;
+margin-right:1px;
+}
+.ngg-singlepic {
+background-color:#FFFFFF;
+}
+
+/* WebTreats Advanced Rss
+/* ----------------------------------------------*/
+#jp-advancedrss-5 h2 a {
+	color:#FFF;
+}
+#jp-advancedrss-5 h2 a:hover {
+	color:#FFF;
+}
+#sidebar .widgetized #jp-advancedrss-5 li {
+	padding:5px 0 5px 10px;
+	background:none
+}
+
+
+
+/* Full Set Download Box
+/* ----------------------------------------------*/
+.mysite_download_box {
+background-color:#EDEDED;
+background-image:url(../images/mysite/download-arrow.png);
+background-position:14px 12px;
+background-repeat:no-repeat;
+margin:0 0 8px;
+padding:12px 42px;	
+}
+
+/* Padding for Faq answer
+/* ----------------------------------------------*/
+.answer p {
+padding:10px;	
+}
+
+
+
+/* hostgator header banner */
+#header .advert {
+left:534px;
+position:absolute;
+top:20px;
+}

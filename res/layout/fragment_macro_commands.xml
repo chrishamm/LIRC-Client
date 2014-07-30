@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dslv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<com.mobeta.android.dslv.DragSortListView
+	    android:id="@+id/list_macro_commands"
+	    dslv:drag_handle_id="@id/item_drag_button"
+	    dslv:track_drag_sort="true"
+	    dslv:float_alpha="0.6"
+	    dslv:float_background_color="#000000aa"
+	    android:layout_marginBottom="8dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+    
+</LinearLayout>

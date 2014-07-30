@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <string name="app_name">LIRC-Client</string>
+    
+    <!-- Main list activity -->
+    <string name="add_activity">Aktivität hinzufügen</string>
+    <string name="manage_macros">Makros verwalten</string>
+    <string name="query_remotes">Geräte vom Server abfragen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="connect_error">Verbindung zum Server nicht möglich!\n\nPrüfen Sie die angegebene IP-Adresse und versuchen Sie es erneut.</string>
+    <string name="query_complete">Abfrage war erfolgreich!</string>
+    
+    <string-array name="navigation_targets">
+        <item>Aktivitäten</item>
+        <item>Geräte</item>
+    </string-array>
+    
+    <string name="menu_activity_rename">Aktivität umbenennen</string>
+    <string name="menu_activity_delete">Aktivität löschen</string>
+    <string name="menu_device_delete">Gerät löschen</string>
+    <string name="menu_device_simulate">SIMULATE verwenden</string>
+    
+    <!-- Info texts -->
+    <string name="info_add_activity">Es sind keine Aktivitäten vorhanden. Bitte fügen Sie erst eine Aktivität per Menü hinzu.</string>
+    <string name="info_select_activity">Bitte wählen Sie eine Aktivität aus der Liste</string>
+    <string name="info_add_devices">Bitte konfigurieren Sie erst die Verbindungseinstellungen für den LIRC-Server und fragen Sie dann alle Befehle per Menü ab.</string>
+    <string name="info_select_device">Bitte wählen Sie ein Gerät aus der Liste</string>
+    <string name="info_wlan_required">WLAN muss aktiv sein, damit Befehle gesendet werden können</string>
+    <string name="info_activity_started">Aktivität wurde gestartet!</string>
+    <string name="info_activity_switched">Aktivität wurde gewechselt!</string>
+    <string name="info_activity_stopped">Aktivität wurde gestoppt!</string>
+    <string name="info_page_added">Neue Seite hinzugefügt</string>
+    <string name="info_last_page_deleted">Letzte Seite wurde gelöscht</string>
+	<string name="info_use_tiles">Lassen Sie eine Kachel gedrückt, um einen neuen Befehl zu hinterlegen</string>
+    <string name="info_consider_editmode">Sie müssen ggf. erst den Bearbeitungsmodus per Menü aktivieren</string>
+    <string name="info_cannot_rotate">Kann diesen Button nicht bewegen, weil das Gerät gerade gedreht ist</string>
+    <string name="info_add_macro">Es sind keine Makros vorhanden. Bitte fügen Sie erst ein Makro per Menü hinzu.</string>
+    <string name="info_select_macro">Bitte wählen Sie ein Makro aus der Liste</string>
+    <string name="info_no_macros">Es wurden noch keine Makros definiert. Benutzen Sie das Menü in der Aktivitätenliste, um eigene Makros zu definieren.</string>
+    <string name="info_add_command">Benutzen Sie das Menü, um Befehle zu ihrem Makro hinzuzufügen</string>
+    
+    <!-- Control fragment -->
+	<string name="error_no_cmd">Fehler: Der gesetzte Befehl ist nicht mehr verfügbar</string>
+	<string name="error_no_code">Fehler: Code nicht gefunden, bitte Geräte erneut abfragen</string>
+	<string name="menu_set_command">Befehl setzen</string>
+	<string name="menu_set_macro">Makro setzen</string>
+	<string name="menu_delete_button">Button löschen</string>
+	<string name="menu_delete_command">Befehl löschen</string>
+	<string name="menu_set_icon">Icon setzen</string>
+	<string name="menu_delete_icon">Icon löschen</string>
+	<string name="menu_set_title">Beschriftung ändern</string>
+	<string name="menu_edit_mode">Bearbeitungsmodus</string>
+	<string name="menu_add_page">Seite hinzufügen</string>
+	<string name="menu_delete_last_page">Letzte Seite löschen</string>
+	<string name="menu_init_commands">Startbefehle verwalten</string>
+	<string name="menu_stop_commands">Stopbefehle verwalten</string>
+	<string name="on">An</string>
+	<string name="off">Aus</string>
+	<string name="help">Hilfe</string>
+	
+	<!-- Macro activity -->
+	<string name="menu_add_macro">Makro hinzufügen</string>
+	<string name="menu_rename_macro">Makro umbenennen</string>
+	<string name="menu_delete_macro">Makro löschen</string>
+	
+	<!-- Command picker dialog -->
+	<string name="dialog_cmd_title">Befehl wählen</string>
+	
+	<!-- Macro picker dialog -->
+	<string name="dialog_macro_title">Makro wählen</string>
+	
+	<!-- Icon picker dialog -->
+	<string name="dialog_icon_title">Icon wählen</string>
+	<string name="dialog_icon_message">Bitte wählen Sie ein Icon:</string>
+	
+	<!-- Text picker dialog -->
+	<string name="dialog_caption_title">Beschriftung wählen</string>
+	<string name="dialog_caption_message">Bitte wählen Sie eine Beschriftung für den Button:</string>
+	
+	<string name="dialog_activity_add_message">Bitte wählen Sie einen Namen für die neue Aktivität:</string>
+	<string name="dialog_activity_rename_message">Bitte wählen Sie einen Namen für die ausgewählte Aktivität:</string>
+	<string name="dialog_device_rename_message">Bitte wählen Sie einen Namen für das ausgewählte Gerät:</string>
+	<string name="dialog_macro_add_message">Bitte wählen Sie einen Namen für das neue Makro:</string>
+	<string name="dialog_macro_rename_message">Bitte wählen Sie einen Namen für das ausgewählte Makro:</string>
+		
+	<!-- Command manager dialog -->
+	<string name="commands_empty">Keine Befehle vorhanden</string>
+	<string name="add_command">Befehl hinzufügen</string>
+	
+	<!-- Fix issues dialog -->
+	<string name="dialog_fix_issues_title">Probleme lösen</string>
+	<string name="dialog_fix_issues_message">Wenn ein Problem aufgetreten ist, können Sie per Klick auf einen Listeneintrag einzelne Befehle erneut senden:</string>
+	
+	<!-- Progress dialog while connecting -->
+	<string name="dialog_connect_title">Verbinde&#8230;</string>
+	<string name="dialog_connect_message">Verbinde zum LIRC-Server&#8230;</string>
+	
+	<!-- Progress dialog for activity start/stop -->
+	<string name="dialog_activity_start_title">Starte Aktivität</string>
+	<string name="dialog_activity_switch_title">Wechsle Aktivität</string>
+	<string name="dialog_activity_stop_title">Stoppe Aktivität</string>
+	<string name="dialog_activity_start_msg">Bitte warten Sie, während die Aktivität gestartet wird&#8230;</string>
+	<string name="dialog_activity_switch_msg">Bitte warten Sie, während die Aktivität gewechselt wird&#8230;</string>
+	<string name="dialog_activity_stop_msg">Bitte warten Sie, während die Aktivität gestoppt wird&#8230;</string>
+		
+    <!-- Settings -->
+	<string name="settings_connection">Verbindungseinstellungen</string>
+    <string name="settings_ip_port">IP-Adresse und Port</string>
+    <string name="settings_ip_port_summary">IP-Adresse des LIRC-Servers (IP:Port)</string>
+    <string name="settings_ip_port_dialog_title">LIRC-Server setzen</string>
+    <string name="settings_wifi_device">WLAN zum Verbindungsaufbau nutzen</string>
+    <string name="settings_wifi_device_summary">Aktivieren Sie diese Option, wenn WLAN zum Verbindungsaufbau genutzt werden soll</string>
+    <string name="settings_grid">Rastergröße</string>
+    <string name="settings_rows">Zeilen</string>
+    <string name="settings_cols">Spalten</string>
+    <string name="settings_rows_dialog_title">Zeilen setzen</string>
+    <string name="settings_cols_dialog_title">Spalten setzen</string>
+    <string name="settings_rows_summary">Anzahl der Zeilen in dem Bedienungsraster</string>
+    <string name="settings_cols_summary">Anzahl der Spalten in dem Bedienungsraster</string>
+    <string name="devices">Geräte</string>
+    <string name="setting_device_simulate_delay_title">SIMULATE-Verzögerung</string>
+    <string name="setting_device_simulate_delay_summary">Verzögerung zwischen jedem gesendeten Befehl wenn die SIMULATE-Option genutzt und ein Button lange gedrückt wird (in ms)</string>
+    <string name="activities">Aktivitäten</string>
+    <string name="settings_activity_autoswitch_title">Aktivitäten automatisch wechseln</string>
+    <string name="settings_activity_autoswitch_summary">Gestartete Aktivität automatisch beenden, sobald eine neue Aktivität gestartet wird</string>
+    <string name="settings_activity_delay_title">Start-/Stop-Verzögerung</string>
+    <string name="settings_activity_delay_summary">Verzögerung zwischen den einzelnen Befehlen beim Starten oder Stoppen einer Aktivität (in ms)</string>
+    <string name="settings_activity_macro_delay_title">Makro-Verzögerung</string>
+    <string name="settings_activity_macro_delay_summary">Verzögerung zwischen den einzelnen Befehlen beim Senden eines Makros (in ms)</string>
+    <string name="settings_rotation">Rotation</string>
+    <string name="settings_rotation_behavior">Rotationsverhalten</string>
+    <string name="settings_rotation_behavior_summary">Ermöglicht die Fixierung der Bildschirmausrichtung</string>
+    <string-array name="rotation_entries">
+        <item>Automatisch (Standard)</item>
+        <item>Porträt</item>
+        <item>Landscape</item>
+    </string-array>
+    <string name="settings_about">Über</string>
+    <string name="settings_licenses_title">Open-Source-Lizenzen</string>
+    <string name="settings_licenses_summary">Lizenzdetails für Open-Source-Software</string>
+</resources>

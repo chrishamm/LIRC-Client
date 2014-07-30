@@ -1,0 +1,13 @@
+TODO:
+
+- add device start-up times
+- add "mark as active" to activity menu
+- add "active" mark to started activity
+- custom icons
+- import/export feature
+- allow multiple profiles
+- text word wrap in buttons
+
+depending on irdroid:
+- auto-setup for irdroid (perhaps based on DNS name?)
+- LATER: add interface to download remote profiles

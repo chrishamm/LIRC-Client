@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="default_grid_rows" type="integer">7</item>
+    <item name="default_grid_cols" type="integer">5</item>
+</resources>

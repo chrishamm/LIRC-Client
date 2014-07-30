@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dslv="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<com.mobeta.android.dslv.DragSortListView
+	    android:id="@+id/list_commands"
+	    dslv:drag_handle_id="@+id/item_drag_button"
+	    dslv:track_drag_sort="true"
+	    dslv:float_alpha="0.6"
+	    dslv:float_background_color="#000000aa"
+	    android:layout_marginBottom="8dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" />
+	
+  	<TextView
+	    android:id="@+id/text_commands_empty"
+	    android:text="@string/commands_empty"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:gravity="center"
+	    android:layout_marginTop="8dp"
+	    android:layout_marginBottom="8dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+	
+    <Button
+        android:id="@+id/button_add_command"
+        android:text="@string/add_command"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

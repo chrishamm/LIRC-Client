@@ -1,0 +1,68 @@
+@charset "utf-8";
+/**
+ *		Add the CSS in your style.css!
+ *		Note that this file will be overwritten while updating.
+ */
+
+.fvCommunityNewsList {
+	padding: 0 !important;
+	margin-left: 5px !important;
+}
+.fvCommunityNewsList li, .fvCommunityNewsList li:before {
+	list-style: none !important;
+	content: "" !important;
+	color: #565656 !important;
+}
+.fvCommunityNewsList li strong {
+	display: block;
+}
+.fvCommunityNewsList li small {
+	font-size: .8em;
+	font-style: normal;
+	letter-spacing: 1px;
+	margin-left: 3px;
+}
+
+#fvCommunityNewsForm label {
+	display: block;
+	color: #000;
+	font-size:12px;
+	color:#565656;
+	padding:13px 0px 3px 0px;
+}
+#fvCommunityNewsForm label em {
+	color: #e00;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+#fvCommunityNewsForm input.submit{
+border-style:solid;
+border-width:0;
+padding:0;
+}
+#link-feed-submit-btn{
+	margin-top:13px;
+}
+#fvCommunityNewsForm input, #fvCommunityNewsForm textarea {
+	background:#F7F6F6 none repeat scroll 0 0;
+	border-color:#C5C3C3 #EDEDED #EDEDED #C5C3C3;
+	border-style:solid;
+	border-width:1px;
+	color:#676563;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	padding:7px 10px;
+}
+#fvCommunityNewsForm input:focus, #fvCommunityNewsForm textarea:focus { border-color: #C5C3C3 #EDEDED #EDEDED #C5C3C3; }
+#fvCommunityNewsForm input.error, #fvCommunityNewsForm textarea.error { border-color: #e40000 #fb0000 #fb0000 #e40000; }
+#fvCommunityNewsForm input.error:focus, #fvCommunityNewsForm textarea.error:focus { border-color: #c40000 #db0000 #db0000 #c40000; }
+#fvCommunityNewsForm textarea { width:340px; }
+#fvCommunityNewsSubmit {
+	width: auto !important;
+	display: block;
+}
+#fvCommunityNewsForm small a {
+	outline: none !important;
+}
+#fvCommunityNewsErrorResponse { color: #e40000; }
